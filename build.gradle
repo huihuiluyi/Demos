@@ -1,0 +1,22 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.0'
+    }
+}
+
+allprojects {
+    version = VERSION_NAME
+    group = GROUP
+
+    repositories {
+        mavenCentral()
+        google()
+    }
+}
+
+
+//apply plugin: 'android-reporting'
